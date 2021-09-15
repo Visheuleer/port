@@ -483,7 +483,7 @@ img{
 }
 
 .skills-photoshop{
-    width: 80%;
+    width: 90%;
 }
 
 .skills-ilustrator{
@@ -999,6 +999,7 @@ img{
 
    .project-data{
        padding-top: .8rem;
+       height: 300px;
    }
 
    .footer-container{
@@ -1026,6 +1027,10 @@ img{
 @media screen and (min-width: 1024px){
     .header, .main, .footer-container{
         padding: 0;
+    }
+
+    .project-data{
+        height: 300px;
     }
 
     .home-blob{
